@@ -8,6 +8,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2
 @SpringBootApplication
 object MyApp extends App {
 
-  SpringApplication.run(MyApp args);
+  SpringApplication.run(classOf[config]);
 }
 
